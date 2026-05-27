@@ -1,8 +1,7 @@
 import { useState, useCallback, useRef } from "react";
 import axios from "axios";
 
-const API_KEY = "670d0681"; // OMDB API key
-const BASE_URL = "https://www.omdbapi.com/";
+const BASE_URL = "/.netlify/functions/movies";
 
 export function useMovieSearch() {
   const [movies, setMovies] = useState([]);
@@ -26,7 +25,7 @@ export function useMovieSearch() {
 
     try {
       const { data } = await axios.get(BASE_URL, {
-        params: { apikey: API_KEY, s: query.trim(), page, type: "movie" },
+        params: { s: query.trim(), page, type: "movie" },
         signal: abortRef.current.signal,
       });
 
