@@ -1,18 +1,22 @@
-<div align="center">
-
 # 🎬 CineSearch — Movie Search App
 
-**A modern, responsive Movie Search App built with React.js, Vite & Tailwind CSS**
+<p align="center">
+  <strong>A modern, responsive Movie Search App built with React.js, Vite &amp; Tailwind CSS</strong>
+</p>
 
-[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
-[![Vite](https://img.shields.io/badge/Vite-8-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
-[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![Axios](https://img.shields.io/badge/Axios-1.x-5A29E4?style=for-the-badge&logo=axios&logoColor=white)](https://axios-http.com/)
-[![OMDb API](https://img.shields.io/badge/OMDb-API-F5C518?style=for-the-badge&logo=imdb&logoColor=black)](https://www.omdbapi.com/)
+<p align="center">
+  <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" /></a>
+  <a href="https://vitejs.dev/"><img src="https://img.shields.io/badge/Vite-8-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" /></a>
+  <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" /></a>
+  <a href="https://axios-http.com/"><img src="https://img.shields.io/badge/Axios-1.x-5A29E4?style=for-the-badge&logo=axios&logoColor=white" alt="Axios" /></a>
+  <a href="https://www.omdbapi.com/"><img src="https://img.shields.io/badge/OMDb-API-F5C518?style=for-the-badge&logo=imdb&logoColor=black" alt="OMDb API" /></a>
+</p>
 
-[Live Demo](#) · [Report Bug](https://github.com/Niteshkumarchauhan/movie-Search-App/issues) · [Request Feature](https://github.com/Niteshkumarchauhan/movie-Search-App/issues)
-
-</div>
+<p align="center">
+  <a href="#">Live Demo</a> &nbsp;·&nbsp;
+  <a href="https://github.com/Niteshkumarchauhan/movie-Search-App/issues">Report Bug</a> &nbsp;·&nbsp;
+  <a href="https://github.com/Niteshkumarchauhan/movie-Search-App/issues">Request Feature</a>
+</p>
 
 ---
 
@@ -23,9 +27,9 @@
 - [Tech Stack](#-tech-stack)
 - [Project Structure](#-project-structure)
 - [Getting Started](#-getting-started)
-- [Key Concepts](#-key-concepts-demonstrated)
-- [Screenshots](#-screenshots)
+- [Key Concepts Demonstrated](#-key-concepts-demonstrated)
 - [Future Enhancements](#-future-enhancements)
+- [Author](#-author)
 - [License](#-license)
 
 ---
@@ -34,44 +38,44 @@
 
 **CineSearch** is a frontend portfolio project that demonstrates core React concepts through a real-world movie search application. Users can search for any movie by title, browse results in a responsive card grid, and click through to IMDb for full details.
 
-The app is powered by the free [OMDb API](https://www.omdbapi.com/) and showcases:
+Powered by the free [OMDb API](https://www.omdbapi.com/), the app showcases:
 
-- ✅ Controlled form inputs
-- ✅ Async API calls with Axios
-- ✅ Loading skeleton animations
-- ✅ Error handling with retry
-- ✅ Pagination with load more
-- ✅ Clean component architecture
-- ✅ Custom React hooks
+- Controlled form inputs
+- Async API calls with Axios
+- Loading skeleton animations
+- Error handling with retry
+- Pagination with load more
+- Clean component architecture
+- Custom React hooks
 
 ---
 
-## ✨ Features
+## Features
 
-| Feature                     | Description                                                    |
-| --------------------------- | -------------------------------------------------------------- |
-| 🔍 **Smart Search**         | Controlled input with form submission and instant clear button |
-| 🎥 **Movie Cards**          | Poster image, title, release year, star rating, and type badge |
-| 💀 **Skeleton Loading**     | Shimmer placeholder cards while data is being fetched          |
-| ⚠️ **Error Handling**       | Friendly error messages with a one-click retry button          |
-| 📄 **Load More**            | Paginated results — fetch 10 at a time, append on demand       |
-| 🔗 **IMDb Links**           | Hover a card to reveal a direct link to its IMDb page          |
-| 🚫 **Request Cancellation** | AbortController cancels stale requests on new searches         |
-| 📱 **Responsive Grid**      | 2 columns on mobile → 6 columns on wide screens                |
-| 🎨 **Smooth Animations**    | Fade-in-up with staggered entrance and hover lift effects      |
-| 🌙 **Dark UI**              | Deep dark theme with indigo accents and ambient glow blobs     |
+| Feature                 | Description                                                    |
+| ----------------------- | -------------------------------------------------------------- |
+| 🔍 Smart Search         | Controlled input with form submission and instant clear button |
+| 🎥 Movie Cards          | Poster image, title, release year, star rating, and type badge |
+| 💀 Skeleton Loading     | Shimmer placeholder cards while data is being fetched          |
+| ⚠️ Error Handling       | Friendly error messages with a one-click retry button          |
+| 📄 Load More            | Paginated results — fetch 10 at a time, append on demand       |
+| 🔗 IMDb Links           | Hover a card to reveal a direct link to its IMDb page          |
+| 🚫 Request Cancellation | AbortController cancels stale requests on new searches         |
+| 📱 Responsive Grid      | 2 columns on mobile up to 6 columns on wide screens            |
+| 🎨 Smooth Animations    | Fade-in-up with staggered entrance and hover lift effects      |
+| 🌙 Dark UI              | Deep dark theme with indigo accents and ambient glow blobs     |
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Technology                               | Version | Purpose                                   |
-| ---------------------------------------- | ------- | ----------------------------------------- |
-| [React](https://react.dev/)              | 19      | UI component library                      |
-| [Vite](https://vitejs.dev/)              | 8       | Lightning-fast build tool & dev server    |
-| [Tailwind CSS](https://tailwindcss.com/) | 4       | Utility-first CSS framework               |
-| [Axios](https://axios-http.com/)         | 1.x     | Promise-based HTTP client                 |
-| [OMDb API](https://www.omdbapi.com/)     | —       | Movie data (title, poster, year, IMDb ID) |
+| Technology   | Version | Purpose                     |
+| ------------ | ------- | --------------------------- |
+| React        | 19      | UI component library        |
+| Vite         | 8       | Build tool and dev server   |
+| Tailwind CSS | 4       | Utility-first CSS framework |
+| Axios        | 1.x     | Promise-based HTTP client   |
+| OMDb API     | —       | Movie data source           |
 
 ---
 
@@ -85,16 +89,16 @@ movie-search-app/
 │   ├── components/
 │   │   ├── Header.jsx          # App logo and tagline
 │   │   ├── SearchBar.jsx       # Controlled input + submit/clear buttons
-│   │   ├── MovieGrid.jsx       # Results grid with results count & load more
+│   │   ├── MovieGrid.jsx       # Results grid with results count and load more
 │   │   ├── MovieCard.jsx       # Individual movie card with hover effects
 │   │   ├── SkeletonCard.jsx    # Shimmer loading placeholder
-│   │   ├── EmptyState.jsx      # Initial state & no-results state
+│   │   ├── EmptyState.jsx      # Initial state and no-results state
 │   │   └── ErrorMessage.jsx    # Error display with retry button
 │   ├── hooks/
-│   │   └── useMovieSearch.js   # Custom hook — all API logic & state
-│   ├── App.jsx                 # Root component, wires everything together
+│   │   └── useMovieSearch.js   # Custom hook — all API logic and state
+│   ├── App.jsx                 # Root component
 │   ├── main.jsx                # React entry point
-│   └── index.css               # Global styles, Tailwind import & animations
+│   └── index.css               # Global styles, Tailwind and animations
 ├── index.html
 ├── vite.config.js
 ├── package.json
@@ -107,9 +111,9 @@ movie-search-app/
 
 ### Prerequisites
 
-- **Node.js** v18 or higher
-- **npm** v9 or higher
-- A free **OMDb API key** → [omdbapi.com/apikey.aspx](https://www.omdbapi.com/apikey.aspx)
+- Node.js v18 or higher
+- npm v9 or higher
+- A free OMDb API key from [omdbapi.com/apikey.aspx](https://www.omdbapi.com/apikey.aspx)
 
 ### 1. Clone the Repository
 
@@ -138,7 +142,7 @@ const API_KEY = "your_omdb_api_key_here";
 npm run dev
 ```
 
-Visit **http://localhost:5173** in your browser.
+Visit `http://localhost:5173` in your browser.
 
 ### 5. Build for Production
 
@@ -177,24 +181,18 @@ const { data } = await axios.get("https://www.omdbapi.com/", {
 
 ### Custom Hook — Separation of Concerns
 
-All API logic, loading/error state, and pagination live in `useMovieSearch.js`. Components only handle rendering — no API code leaks into JSX files.
+All API logic, loading/error state, and pagination live in `useMovieSearch.js`. Components only handle rendering.
 
 ```js
 const { movies, loading, error, hasMore, searchMovies, loadMore } =
   useMovieSearch();
 ```
 
-### Loading State with Skeleton Cards
+### Skeleton Loading State
 
 ```jsx
 if (loading && movies.length === 0) {
-  return (
-    <>
-      {Array.from({ length: 8 }).map((_, i) => (
-        <SkeletonCard key={i} />
-      ))}
-    </>
-  );
+  return Array.from({ length: 8 }).map((_, i) => <SkeletonCard key={i} />);
 }
 ```
 
@@ -205,14 +203,6 @@ if (error) {
   return <ErrorMessage message={error} onRetry={handleRetry} />;
 }
 ```
-
----
-
-## 📸 Screenshots
-
-|                Initial State                 |                Search Results                 |             Error State             |
-| :------------------------------------------: | :-------------------------------------------: | :---------------------------------: |
-| Animated empty state with search suggestions | Responsive movie card grid with results count | Styled error card with retry button |
 
 ---
 
@@ -227,23 +217,19 @@ if (error) {
 
 ---
 
-## �‍💻 Author
+## � Author
 
 **Nitesh Kumar Chauhan**
 
 [![GitHub](https://img.shields.io/badge/GitHub-Niteshkumarchauhan-181717?style=for-the-badge&logo=github)](https://github.com/Niteshkumarchauhan)
-[![Email](https://img.shields.io/badge/Email-chauhannitesh19@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chauhannitesh19@gmail.com)
+[![Email](https://img.shields.io/badge/Email-chauhannitesh19%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chauhannitesh19@gmail.com)
 
 ---
 
 ## 📄 License
 
-Distributed under the **MIT License**. See `LICENSE` for more information.
+Distributed under the **MIT License**.
 
 ---
 
-<div align="center">
-
-Built with ❤️ by **Nitesh Kumar Chauhan** · ⭐ Star this repo if you found it helpful!
-
-</div>
+> Built with ❤️ by **Nitesh Kumar Chauhan** — if you found this helpful, please give it a ⭐
