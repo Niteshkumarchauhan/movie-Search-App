@@ -1,0 +1,12 @@
+{
+  "buildCommand": "cd movie-search-app && npm install && npm run build",
+  "outputDirectory": "movie-search-app/dist",
+  "installCommand": "cd movie-search-app && npm install",
+  "framework": null,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
