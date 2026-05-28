@@ -1,6 +1,0 @@
-[build]
-  command = "cd movie-search-app && npm install && npm run build"
-  publish = "movie-search-app/dist"
-
-[functions]
-  directory = "netlify/functions"
